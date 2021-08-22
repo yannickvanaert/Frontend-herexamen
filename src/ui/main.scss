@@ -1,0 +1,20 @@
+//this file is the single output by sass
+
+
+//01_fundaments
+@import '01_fundaments/basics/basics.scss';
+@import '01_fundaments/colors/colors.scss';
+@import '01_fundaments/typography/typography.scss';
+@import '01_fundaments/animations/animations.scss';
+
+//02_atoms
+@import '02_atoms/atoms.scss';
+@import '02_atoms/buttons/buttons.scss';
+@import '02_atoms/images/images.scss';
+
+//03_molecules
+@import '03_molecules/molecules.scss';
+@import '03_molecules/navigation.scss';
+
+//04_organisms
+@import '04_organisms/header.scss';

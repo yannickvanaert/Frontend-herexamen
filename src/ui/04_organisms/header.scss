@@ -1,0 +1,141 @@
+.header {
+    height: 90vh;
+    background-color: $pink;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.headercontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.section_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.section_style {
+    height: 100vh;
+    background-color: $yellow;
+    display: flex;
+    align-items: center;
+}
+
+.section_style-2 {
+    height: 100vh;
+    background-color: $yellow;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section_style_white {
+    height: 100vh;
+    background-color: $white;
+    display: flex;
+    align-items: stretch;
+}
+
+.section_content-white {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box1 {
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.footer {
+    height: 40vh;
+    background: $primary1;
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    height: 10vh;
+    background-color: $darkerpink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p{
+    width: 100%;
+    text-align: center;
+    color: $white;
+    font-family: 'DMSans-Regular';
+    font-size: 16px;
+}
+
+
+@media(max-width: 700px) {
+    .header {
+        display: block;
+    }
+
+    .headercontent {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section_content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section_style {
+        align-items: center;
+    }
+
+    .section_style-2 {
+        align-items: center;
+    }
+    
+    .section_style_white {
+        height: 150vh;
+        background-color: $white;
+        align-items: stretch;
+    }
+
+    .icons_content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box1 {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    .section_small {
+        background: url("/src/ui/images/Bitmap.png");
+        width: 100%;
+    }
+
+    .footer {
+        height: 110vh;
+    }
+
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        height: 10vh;
+        background-color: $darkerpink;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+

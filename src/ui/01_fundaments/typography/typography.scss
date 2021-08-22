@@ -1,0 +1,187 @@
+@font-face {
+    font-family: 'AlfaSlabOne-Regular';
+    src: url(./fonts/AlfaSlabOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'DMSans-Bold';
+    src: url(./fonts/DMSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'DMSans-BoldItalic';
+    src: url(./fonts/DMSans-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: 'DMSans-Italic';
+    src: url(./fonts/DMSans-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'DMSans-Medium';
+    src: url(./fonts/DMSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'DMSans-MediumItalic';
+    src: url(./fonts/DMSans-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: 'DMSans-Regular';
+    src: url(./fonts/DMSans-Regular.ttf);
+}
+
+h1 {
+    font-family: 'AlfaSlabOne-Regular';
+    font-size: 70px;
+}
+
+h2 {
+    font-family: 'AlfaSlabOne-Regular';
+    font-size: 56px;
+}
+
+h3 {
+    font-family: 'AlfaSlabOne-Regular';
+    font-size: 40px;
+}
+
+h4 {
+    font-family: 'AlfaSlabOne-Regular';
+    font-size: 24px;
+}
+
+h5 {
+    font-family: 'AlfaSlabOne-Regular';
+    font-size: 20px;
+}
+
+.h2_white {
+    color: $white;
+}
+
+.h5_white {
+    color: $white;
+}
+
+.textBig {
+    font-family: 'DMSans-Regular';
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.text {
+    font-family: 'DMSans-Bold';
+    font-size: 16px;
+}
+
+.text_Gray {
+    font-family: 'DMSans-Regular';
+    font-size: 16px;
+    color: $black50;
+    text-align: center;
+}
+
+.text_Small {
+    font-family: 'DMSans-Regular';
+    font-size: 16px;
+}
+
+.navbar_links {
+    font-family: 'DMSans-Bold';
+    font-size: 16px;
+}
+
+.navbar_button a {
+    font-family: 'DMSans-Bold';
+    font-size: 16px;
+}
+
+.button button {
+    font-family: 'DMSans-Bold';
+    font-size: 16px;
+}
+
+.button_primary button {
+    font-family: 'DMSans-Bold';
+    font-size: 16px;
+    color: $white;
+}
+
+.button_section_3 button {
+    font-family: 'DMSans-Bold';
+    font-size: 16px;
+    color: $primary1;
+}
+
+.center_white {
+    text-align: center;
+}
+
+.h5_primary {
+    color: $primary1;
+}
+
+.h3_textBlack {
+    color: $textBlack;
+}
+
+.textBlack {
+    color: $textBlack;
+    text-align: center;
+}
+
+.h3_white {
+    color: $white;
+}
+
+.white {
+    color: $white;
+}
+
+.titel-header-afgekapt {
+    display: none;
+}
+
+.titel-header-long {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.titel-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-titel {
+    padding-bottom: 25px;
+    font-family: 'DMSans-Bold';
+    font-size: 16px;
+    color: $white;
+}
+
+.footer-list {
+    color: $white50;
+    font-family: 'DMSans-Regular';
+    font-size: 16px;
+}
+
+@media(max-width: 700px) {
+    .titel-header-long {
+        display: none;
+    }
+
+    .titel-header-afgekapt {
+        display: block;
+    }
+
+    footer p{
+        width: 50%;
+        text-align: center;
+        color: $white;
+        font-family: 'DMSans-Regular';
+        font-size: 16px;
+    }
+}

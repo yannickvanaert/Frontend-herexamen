@@ -1,0 +1,21 @@
+.open_menu:hover {
+    color: $textBlack;
+    transition: .4s ease;
+  }
+
+.navbar_logo a:hover {
+    color: $textBlack;
+    text-decoration: none;
+    transition: .4s ease;
+}
+
+#button:hover{
+    background-color: $white;
+    color: $textBlack;
+    transition: .4s ease;
+}
+
+.navbar_links li a:hover {
+    color: $textBlack;
+    transition: .4s ease;
+  }

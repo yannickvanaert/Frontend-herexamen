@@ -1,0 +1,66 @@
+.button-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button {
+    padding: 15px 60px;
+    border: 2px solid $black50;
+    border-radius: 5px;
+    background-color: $white;
+    font-family: 'DMSans-Bold';
+    font-size: 16px;
+}
+
+#button-header {
+    background-color: $white;
+}
+
+#button {
+    background: transparent;
+    padding: 10px 50px;
+    border: .5px solid $white;
+    border-radius: 3px;
+}
+
+.button_primary button {
+    padding: 15px 60px;
+    background: $primary1;
+    border: none;
+    border-radius: 3px;
+}
+
+.button_section_3 button{
+    padding: 15px 60px;
+    background: transparent;
+    border: 1px solid $primary1;
+    border-radius: 3px;    
+}
+
+input {
+    padding: 10%;
+    width: 180%;
+}
+
+@media(max-width: 700px) {
+    .button-input {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .input-field input {
+        padding: 15px 5px; 
+        width: 280%;
+    }
+
+    input {
+        width: 280%;
+    }
+
+    .button-header {
+        margin-top: 20px;
+    }
+}
